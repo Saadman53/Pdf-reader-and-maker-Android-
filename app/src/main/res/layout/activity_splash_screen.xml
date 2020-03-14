@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashScreen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/huia"
+
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+
+    >
+
+
+    <ProgressBar
+        android:id="@+id/splashProg"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="192dp"
+        android:backgroundTint="@color/White"
+        android:progressTint="#6C09AD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

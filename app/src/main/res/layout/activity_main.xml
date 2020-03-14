@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/darcula"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+
+
+
+            <EditText
+
+                android:id="@+id/UsernameID"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/round_edittext"
+
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/PassowrdID"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/round_edittext"
+                android:hint="@string/password"
+                android:paddingLeft="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/loginID"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button"
+
+                    android:text="@string/log_in"
+                    android:textColor="@android:color/white"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/forgotButtonID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF404040"
+                android:text="Forgot Password?"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textColor="@android:color/white" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:background="@android:color/darker_gray" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/signupID"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FF404040"
+                    android:text="@string/don_t_have_an_account_click_here_to_sign_up"
+
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressID"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:visibility="gone" />
+
+
+
+
+
+</LinearLayout>

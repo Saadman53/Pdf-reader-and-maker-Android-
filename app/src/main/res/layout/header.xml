@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/cover"
+    android:id="@+id/header"
+    android:padding="20dp"
+    tools:ignore="InvalidId"
+    style=""
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="96dp"
+        android:layout_height="76dp">
+
+        <ImageView
+            android:id="@+id/dpImageID"
+            android:layout_width="85dp"
+            android:layout_height="73dp"
+            android:src="@drawable/default_user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="24dp"
+            android:src="@drawable/camera"
+
+            android:id="@+id/cameraID"
+
+            app:layout_constraintBottom_toBottomOf="@+id/dpImageID"
+            app:layout_constraintEnd_toEndOf="@+id/dpImageID"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/dpImageID"
+            app:layout_constraintTop_toTopOf="@+id/dpImageID"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/header_user_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/header_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user@mail.com"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>

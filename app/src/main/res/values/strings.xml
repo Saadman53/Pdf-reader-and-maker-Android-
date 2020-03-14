@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Nyo Reader &amp; PDF maker</string>
+    <string name="username">Enter user email</string>
+    <string name="password">Enter password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="first_nameEdit">Enter First name</string>
+    <string name="second_nameEdit">Enter Second Name</string>
+    <string name="enter_first_name_Text">First Name: </string>
+    <string name="sec_Text">Second Name: </string>
+    <string name="emailEdit">Email:</string>
+    <string name="mailHint">CGomes@mail.com</string>
+    <string name="phoneHINT">Phone:</string>
+    <string name="numberHINT">+880XXXXXXXXX</string>
+    <string name="BirthdayTEXTHINT">Birthday</string>
+    <string name="birthdayHINT">day/month/year</string>
+    <string name="don_t_have_an_account_click_here_to_sign_up">Don\'t have an account? Click here to Sign Up</string>
+    <string name="message">Message</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="title_activity_home_activity">home_activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

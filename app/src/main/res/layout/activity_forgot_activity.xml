@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot_activity"
+    android:background="@drawable/darcula"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Enter your email address"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        />
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:hint="user@email.com"
+        android:id="@+id/forgotEmailID"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="40dp"
+
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/reset_buttonID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+
+        android:text="Reset Password"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_forgot_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+</LinearLayout>

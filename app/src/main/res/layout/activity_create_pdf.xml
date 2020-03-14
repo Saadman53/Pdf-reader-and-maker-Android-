@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePDF"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/darcula"
+    android:gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:src="@drawable/pdfff"
+        android:id="@+id/pdfImageID"
+        android:layout_weight="8"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/addID"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="ADD IMAGE"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="50dp"
+        />
+    <Button
+        android:id="@+id/convertID"
+        android:layout_width="200dp"
+
+        android:layout_height="0dp"
+        android:text="CONVERT PDF"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="50dp"
+        />
+
+
+</LinearLayout>

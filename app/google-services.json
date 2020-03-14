@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189213457258",
+    "firebase_url": "https://nyo-reader-pdf-maker.firebaseio.com",
+    "project_id": "nyo-reader-pdf-maker",
+    "storage_bucket": "nyo-reader-pdf-maker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189213457258:android:7d027cf503585d9383c313",
+        "android_client_info": {
+          "package_name": "com.example.nyoreaderpdfmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189213457258-1mao2e9uo41m17du3mha6bv4uri78tfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyoreaderpdfmaker",
+            "certificate_hash": "f27b115d894550cc7a23eb86d6ce6f1034bd6445"
+          }
+        },
+        {
+          "client_id": "189213457258-1cpvsmshs5p001572nh2ptgov5ff7jtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByv4PBPnRGPKyzYwzhr5s-eL9rEbQptm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189213457258-1cpvsmshs5p001572nh2ptgov5ff7jtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
